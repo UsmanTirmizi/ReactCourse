@@ -1,0 +1,14 @@
+.buttonStyle{
+    background-color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    color: wheat;
+}
+.buttonStyle:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.productTitle{
+    font-size: 20px;
+    color: rgb(193, 78, 16);
+}

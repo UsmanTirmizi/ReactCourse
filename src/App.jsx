@@ -5,6 +5,7 @@ import './App.css'
 import ClassBasedComponent from './components/class-based-component'
 import FunctionalComponenet from './components/functional-component'
 import ProductList from './components/products'
+import Users from './components/users'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +15,10 @@ function App() {
 
       <div>
         <h1>React Js Concept</h1>
-        {/* <ClassBasedComponent/>
-        <FunctionalComponenet/> */}
-        <ProductList name="Usman" city="Khi" dummyProductData={dummyProductData}/>
+        {/* <ClassBasedComponent/> */}
+        {/* <FunctionalComponenet/> */}
+        {/* <ProductList name="Usman" city="Khi" dummyProductData={dummyProductData}/> */}
+        <Users/>
       </div>
      
   )

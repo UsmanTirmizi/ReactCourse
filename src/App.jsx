@@ -6,6 +6,9 @@ import ClassBasedComponent from './components/class-based-component'
 import FunctionalComponenet from './components/functional-component'
 import ProductList from './components/products'
 import Users from './components/users'
+import ContextButtonComponent from './components/context-concept/button'
+import ContextTextComponent from './components/context-concept/text'
+import UseReducerExample from './components/use.reducer-example'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +21,10 @@ function App() {
         {/* <ClassBasedComponent/> */}
         {/* <FunctionalComponenet/> */}
         {/* <ProductList name="Usman" city="Khi" dummyProductData={dummyProductData}/> */}
-        <Users/>
+        {/* <Users/> */}
+        {/* <ContextButtonComponent/>
+        <ContextTextComponent/> */}
+        <UseReducerExample/>
       </div>
      
   )
